@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 # ========== CONFIG ==========
 # Update this to your shorthand images folder
-image_folder_path = 'C:/Users/admin/Desktop/MyProjects/Lipyantar/Steno/ALL_IMAGES'
+image_folder_path = '/Steno/ALL_IMAGES'
 
 # ========== UTILITY FUNCTIONS ==========
 
@@ -152,3 +152,4 @@ elif mode == "Shorthand to Text":
         if decoded_texts:
             st.info("Output Marathi Text:")
             st.markdown('"' + " ".join(decoded_texts) + '"')
+
